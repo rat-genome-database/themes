@@ -1,0 +1,4 @@
+<?php
+update_option('siteurl','https://rgd.mcw.edu/wg');
+update_option('home','https://rgd.mcw.edu/wg');
+?>
