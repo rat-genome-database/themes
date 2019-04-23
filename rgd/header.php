@@ -1,4 +1,3 @@
-<!-- test -->
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
@@ -496,6 +495,7 @@
 
                                     <div class="rgd-dropdown-content">
                                         <a href="/jbrowse/">JBrowse (Genome Browser)</a>
+                                        <a href="/rgdweb/enrichment/start.html">Ontology Enrichment</a>
                                         <a href="/rgdweb/front/config.html">Variant Visualizer</a>
                                         <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
                                         <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quatitative Phenotypes)</a>
