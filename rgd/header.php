@@ -444,7 +444,7 @@
                             <a href="ftp://ftp.rgd.mcw.edu/pub">FTP Download</a>&nbsp;|&nbsp;
                             <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui.html">REST API</a>&nbsp;|&nbsp;
                             <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
-                            <a href="/contact/index.shtml">Contact</a>&nbsp;&nbsp;&nbsp;
+                            <a href="/wg/contact/">Contact</a>&nbsp;&nbsp;&nbsp;
 
                             <input type="button" class="btn btn-info btn-sm"  value="{{username}}" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>
                         </td>
@@ -467,7 +467,7 @@
                                         <a href="/wg/grants/">Grant Resources</a>
                                         <a href="/wg/citing-rgd/">Citing RGD</a>
                                         <a href="/wg/about-us/">About Us</a>
-                                        <a href="/contact/index.shtml">Contact Us</a>
+                                        <a href="/wg/contact/">Contact Us</a>
                                     </div>
                                 </div>
                                 <div class="rgd-dropdown">
@@ -514,18 +514,18 @@
                                     </button>
 
                                     <div class="rgd-dropdown-content">
-                                        <a href="/rgdCuration/?module=portal&func=show&name=aging">Aging & Age-Related Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cancer">Cancer</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cardio">Cardiovascular Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=develop">Developmental Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=diabetes">Diabetes</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=blood">Hematologic Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=immune">Immune & Inflammatory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=nuro">Neurological Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=obesity">Obesity & Metabolic Syndrome</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=renal">Renal Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=respir">Respiratory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=sensory">Sensory Organ Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=1">Aging & Age-Related Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=2">Cancer</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=3">Cardiovascular Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=">Developmental Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=4">Diabetes</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=5">Hematologic Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=6">Immune & Inflammatory Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=7">Neurological Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=8">Obesity & Metabolic Syndrome</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=9">Renal Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=10">Respiratory Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=11">Sensory Organ Disease</a>
                                     </div>
                                 </div>
                                 <div class="rgd-dropdown">
