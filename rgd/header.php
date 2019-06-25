@@ -515,6 +515,22 @@
                                     </button>
 
                                     <div class="rgd-dropdown-content">
+                                        <a href="/rgdCuration/?module=portal&func=show&name=aging">Aging & Age-Related Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=cancer">Cancer</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=cardio">Cardiovascular Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=develop">Developmental Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=diabetes">Diabetes</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=blood">Hematologic Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=immune">Immune & Inflammatory Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=nuro">Neurological Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=obesity">Obesity & Metabolic Syndrome</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=renal">Renal Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=respir">Respiratory Disease</a>
+                                        <a href="/rgdCuration/?module=portal&func=show&name=sensory">Sensory Organ Disease</a>
+                                    </div>
+
+                                    <!--
+                                    <div class="rgd-dropdown-content">
                                         <a href="/rgdweb/portal/home.jsp?p=1">Aging & Age-Related Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=2">Cancer</a>
                                         <a href="/rgdweb/portal/home.jsp?p=3">Cardiovascular Disease</a>
@@ -528,6 +544,7 @@
                                         <a href="/rgdweb/portal/home.jsp?p=10">Respiratory Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=11">Sensory Organ Disease</a>
                                     </div>
+                                    -->
                                 </div>
                                 <div class="rgd-dropdown">
                                     <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/physiology/'">Phenotypes & Models
