@@ -499,7 +499,7 @@
                                         <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
                                         <a href="/rgdweb/front/config.html">Variant Visualizer</a>
                                         <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
-                                        <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quatitative Phenotypes)</a>
+                                        <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quantitative Phenotypes)</a>
                                         <a href="/rgdweb/ga/start.jsp">Gene Annotator</a>
                                         <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
                                         <a href="http://ratmine.mcw.edu/ratmine/begin.do">RatMine</a>
