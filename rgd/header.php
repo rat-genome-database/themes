@@ -511,26 +511,10 @@
                                     </div>
                                 </div>
                                 <div class="rgd-dropdown">
-                                    <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/portals/'">Diseases
+                                    <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/rgdweb/portal/index.jsp'">Diseases
                                         <i class="fa fa-caret-down"></i>
                                     </button>
 
-                                    <!--
-                                    <div class="rgd-dropdown-content">
-                                        <a href="/rgdCuration/?module=portal&func=show&name=aging">Aging & Age-Related Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cancer">Cancer</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cardio">Cardiovascular Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=develop">Developmental Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=diabetes">Diabetes</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=blood">Hematologic Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=immune">Immune & Inflammatory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=nuro">Neurological Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=obesity">Obesity & Metabolic Syndrome</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=renal">Renal Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=respir">Respiratory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=sensory">Sensory Organ Disease</a>
-                                    </div>
-                                    -->
 
                                     <div class="rgd-dropdown-content">
                                         <a href="/rgdweb/portal/home.jsp?p=1">Aging & Age-Related Disease</a>
@@ -541,6 +525,7 @@
                                         <a href="/rgdweb/portal/home.jsp?p=4">Diabetes</a>
                                         <a href="/rgdweb/portal/home.jsp?p=5">Hematologic Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=6">Immune & Inflammatory Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=15">Infectiousy Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=13">Liver Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=7">Neurological Disease</a>
                                         <a href="/rgdweb/portal/home.jsp?p=8">Obesity & Metabolic Syndrome</a>
