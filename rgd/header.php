@@ -667,10 +667,13 @@
 
 <body>
     <div id="divButtons" class="btnDiv">
-        <button type="button" class="hideMe" id="hideDiv" onclick="hideButtons()">Hide</button>
+        <button type="button" class="hideMe" id="hideDiv" onclick="hideButtons()">x</button>
         <button class="thumbsDown" v-on:click="dislikedPage"></button>
         <button class="open-button" onclick="openForm()">Send Message</button>
         <button class="thumbsUp" v-on:click="likedPage"></button>
+    </div>
+    <div id="hiddenBtns" class="hiddenBtns" style="display: none">
+        <button type="button" class="openLikeBtn" onclick="hideButtons()"></button>
     </div>
 
 <div class="chat-popup" id="messageVue">
