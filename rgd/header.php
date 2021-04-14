@@ -664,8 +664,6 @@
         </td></tr>
 </table>
 <html>
-<html>
-<script src="/rgdweb/js/webFeedback.js"></script>
 
 <body>
     <div id="divButtons" class="btnDiv">
