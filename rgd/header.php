@@ -664,6 +664,8 @@
         </td></tr>
 </table>
 <html>
+<html>
+<script src="/rgdweb/js/webFeedback.js"></script>
 
 <body>
     <div id="divButtons" class="btnDiv">
@@ -679,11 +681,11 @@
 <div class="chat-popup" id="messageVue">
     <form class="form-container">
         <button type="button" id="close" onclick="closeForm()" class="closeForm">x</button>
-        <h1>Send us a Message</h1>
+        <h2 id="headMsg">Send us a Message</h2>
         <input type="hidden" name="subject" value="Help and Feedback Form">
         <input type="hidden" name="found" value="0">
 
-        <label><b>Email</b></label>
+        <label><b>Your email</b></label>
         <br><input type="email" name="email" v-model="email">
         <br><label><b>Message</b></label>
         <textarea placeholder="Type message.." name="comment" v-model="message"></textarea>
@@ -697,6 +699,7 @@
 <script>
     checkCookie();
 </script>
+
 
 
 <div id="mainBody">
