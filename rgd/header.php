@@ -39,7 +39,7 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
     <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-    <script src="/rgdweb/js/webFeedback.js"></script>
+    <script src="/rgdweb/js/webFeedback.js" defer></script>
 
     <script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
     <script type="text/javascript">
