@@ -470,7 +470,7 @@
                                     </button>
 
                                     <div class="rgd-dropdown-content">
-                                        <a href="/wg/general-search/">Search RGD</a>
+                                        <a href="/rgdweb/search/searchByPosition.html">Search RGD</a>
                                         <a href="/wg/grants/">Grant Resources</a>
                                         <a href="/wg/citing-rgd/">Citing RGD</a>
                                         <a href="/wg/about-us/">About Us</a>
@@ -514,7 +514,7 @@
                                         <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
                                         <a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>
                                         <a href="/ACPHAPLOTYPER/">ACP Haplotyper</a>
-                                        <a href="/GENOMESCANNER/">Genome Scanner</a>
+                                        <!-- <a href="/GENOMESCANNER/">Genome Scanner</a> -->
                                     </div>
                                 </div>
                                 <div class="rgd-dropdown">
