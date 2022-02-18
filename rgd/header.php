@@ -616,7 +616,7 @@
                                                                     <input class="btn btn-info btn-sm" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px" type="submit" value="Search RGD"/>
 
                                                                 </td>
-                                                                <td colspan="2"  align="center"><br><a href="/rgdweb/generator/list.html" >Advanced Search (OLGA)</a><br>&nbsp;&nbsp; <a href="/QueryBuilder" >OntoMate (Literature Search) </a></td>
+                                                                <td colspan="2"  align="center"><br><a href="/rgdweb/generator/list.html" >Advanced Search (OLGA)</a>
                                                             </tr>
                                                         </table>
 
@@ -672,7 +672,7 @@
         <br><label><b>Message</b></label>
         <textarea placeholder="Type message.." name="comment" v-model="message"></textarea>
 
-        <button type="button" class="btn" v-on:click="sendMail">Send</button>
+        <button type="button" id="sendEmail" class="btn" v-on:click="sendMail">Send</button>
 
     </form>
 </div>
