@@ -436,7 +436,7 @@
                         <tr>
                             <td align="left" style="color:white;" rowspan="3" width="10">
 
-                                <div ><a class="homeLink" href="/wg/home"><img style="border:3px solid #2865A3; max-width: 150px;" border="0" src="/rgdweb//common/images/rgd_logo.jpg"></a></div>
+                                <div ><a class="homeLink" href="/wg/home"><img style="border:3px solid #2865A3;  max-width: 150px;" border="0" src="/rgdweb//common/images/rgd_logo.jpg"></a></div>
 
                             </td>
 
@@ -448,7 +448,7 @@
                             <a href="/wg/news2/">News</a>&nbsp;|&nbsp;
                             <a href="/wg/home/rat-genome-database-publications">Publications</a>&nbsp;|&nbsp;
 
-                            <a href="ftp://ftp.rgd.mcw.edu/pub">FTP Download</a>&nbsp;|&nbsp;
+                            <a href="https://download.rgd.mcw.edu">Download</a>&nbsp;|&nbsp;
                             <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui.html">REST API</a>&nbsp;|&nbsp;
                             <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
                             <a href="/rgdweb/contact/contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;
@@ -491,7 +491,7 @@
                                         <a href="/rgdweb/ontology/search.html">Ontologies</a>
                                         <a href="/rgdweb/search/cellLines.html">Cell Lines</a>
                                         <a href="/rgdweb/search/references.html?100">References</a>
-                                        <a href="ftp://ftp.rgd.mcw.edu/pub/">FTP Download</a>
+                                        <a href="https://download.rgd.mcw.edu">Download</a>
                                         <a href="/registration-entry.shtml">Submit Data</a>
                                     </div>
                                 </div>
@@ -505,7 +505,6 @@
                                         <a href="/jbrowse/">JBrowse (Genome Browser)</a>
                                         <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
                                         <a href="/rgdweb/ortholog/start.html">Gene-Ortholog Location Finder (GOLF)</a>
-                                        <a href="/rgdweb/vv/config.html"><span style="color:darkblue">Elastic Variant Visualizer</span>&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;color:red">new</span></a>
                                         <a href="/rgdweb/front/config.html">Variant Visualizer</a>
                                         <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
                                         <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quantitative Phenotypes)</a>
@@ -519,24 +518,29 @@
                                     </div>
                                 </div>
                                 <div class="rgd-dropdown">
-                                    <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/portals/'">Diseases
+                                    <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/rgdweb/portal/index.jsp'">Diseases
                                         <i class="fa fa-caret-down"></i>
                                     </button>
 
+
                                     <div class="rgd-dropdown-content">
-                                        <a href="/rgdCuration/?module=portal&func=show&name=aging">Aging & Age-Related Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cancer">Cancer</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=cardio">Cardiovascular Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=develop">Developmental Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=diabetes">Diabetes</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=blood">Hematologic Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=immune">Immune & Inflammatory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=nuro">Neurological Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=obesity">Obesity & Metabolic Syndrome</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=renal">Renal Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=respir">Respiratory Disease</a>
-                                        <a href="/rgdCuration/?module=portal&func=show&name=sensory">Sensory Organ Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=1">Aging & Age-Related Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=2">Cancer</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=3">Cardiovascular Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=14">COVID-19</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=12">Developmental Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=4">Diabetes</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=5">Hematologic Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=6">Immune & Inflammatory Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=15">Infectious Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=13">Liver Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=7">Neurological Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=8">Obesity & Metabolic Syndrome</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=9">Renal Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=10">Respiratory Disease</a>
+                                        <a href="/rgdweb/portal/home.jsp?p=11">Sensory Organ Disease</a>
                                     </div>
+
                                 </div>
                                 <div class="rgd-dropdown">
                                     <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/wg/physiology/'">Phenotypes & Models
@@ -544,18 +548,20 @@
                                     </button>
 
                                     <div class="rgd-dropdown-content">
+                                        <a href="/rgdweb/models/findModels.html">Find Models&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;color:red">new</span></a>
                                         <a href="/rgdweb/models/allModels.html">Genetic Models</a>
+                                        <a href="/wg/autism-rat-model-resource/">Autism Models</a>
                                         <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quantitative Phenotypes)</a>
                                         <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
                                         <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
+                                        <a href="/wg/hrdp_panel/">Hybrid Rat Diversity Panel</a>
                                         <a href="/wg/phenotype-data13/">Phenotypes</a>
-                                        <a href="/wg/gerrc/">GERRC (Gene Editing Rat Resource Center)</a>
                                         <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
                                         <a href="/wg/strain-maintenance/">Animal Husbandry</a>
                                         <a href="/wg/physiology/strain-medical-records/">Strain Medical Records</a>
                                         <a href="/wg/phylogenetics/">Phylogenetics</a>
                                         <a href="/wg/strain-availability/">Strain Availability</a>
-                                        <a href="ftp://ftp.rgd.mcw.edu/pub/data_release/Hi-res_Rat_Calendars/">Calendar</a>
+                                        <a href="https://download.rgd.mcw.edu/pub/data_release/Hi-res_Rat_Calendars/">Calendar</a>
                                         <a href="/wg/physiology/rats101/">Rats 101</a>
                                         <a href="/wg/photos-and-images/community-submissions/">Submissions</a>
                                         <a href="/wg/photos-and-images/physgen-photo-archive2/">Photo Archive</a>
@@ -610,7 +616,7 @@
                                                                     <input class="btn btn-info btn-sm" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px" type="submit" value="Search RGD"/>
 
                                                                 </td>
-                                                                <td colspan="2"  align="center"><br><a href="/rgdweb/generator/list.html" >Advanced Search (OLGA)</a></td>
+                                                                <td colspan="2"  align="center"><br><a href="/rgdweb/generator/list.html" >Advanced Search (OLGA)</a>
                                                             </tr>
                                                         </table>
 
@@ -641,29 +647,7 @@
             </div>
 
 
-
-
-
-            </DIV>
-            <!--end headwrapper -->
-            </div>
-
-            <script>
-                if (location.href.indexOf("") == -1 &&
-                        location.href.indexOf("https://www.rgd.mcw.edu") == -1 &&
-                        location.href.indexOf("osler") == -1 &&
-                        location.href.indexOf("horan") == -1 &&
-                        location.href.indexOf("owen") == -1 &&
-                        location.href.indexOf("hancock") == -1 &&
-                        location.href.indexOf("preview.rgd.mcw.edu") == -1) {
-
-                    document.getElementById("curation-top").style.visibility='visible';
-                }
-            </script>
-
-        </td></tr>
-</table>
-<html>
+            <html>
 
 <body>
     <div id="divButtons" class="btnDiv">
@@ -698,6 +682,26 @@
     checkCookie();
 </script>
 
+
+            </DIV>
+            <!--end headwrapper -->
+            </div>
+
+            <script>
+                if (location.href.indexOf("") == -1 &&
+                        location.href.indexOf("https://www.rgd.mcw.edu") == -1 &&
+                        location.href.indexOf("osler") == -1 &&
+                        location.href.indexOf("horan") == -1 &&
+                        location.href.indexOf("owen") == -1 &&
+                        location.href.indexOf("hancock") == -1 &&
+                        location.href.indexOf("preview.rgd.mcw.edu") == -1) {
+
+                    document.getElementById("curation-top").style.visibility='visible';
+                }
+            </script>
+
+        </td></tr>
+</table>
 
 
 <div id="mainBody">

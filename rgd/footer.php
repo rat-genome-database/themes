@@ -28,7 +28,6 @@
     <p align="center"><a href="/wg/wp-admin/post.php?post=15&action=edit">RGD</a> is funded by grant HL64541 from the National Heart, Lung, and Blood Institute on behalf of the NIH.<br>
 
 
-
 <div id="copyright">
 
 </div>
