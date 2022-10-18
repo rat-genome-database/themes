@@ -500,22 +500,24 @@
                                         <i class="fa fa-caret-down"></i>
                                     </button>
 
-                                    <div class="rgd-dropdown-content">
-                                        <a href="/QueryBuilder" >OntoMate (Literature Search)</a>
-                                        <a href="/jbrowse/">JBrowse (Genome Browser)</a>
-                                        <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
-                                        <a href="/rgdweb/ortholog/start.html">Gene-Ortholog Location Finder (GOLF)</a>
-                                        <a href="/rgdweb/front/config.html">Variant Visualizer</a>
-                                        <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
-                                        <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quantitative Phenotypes)</a>
-                                        <a href="/rgdweb/ga/start.jsp">Gene Annotator</a>
-                                        <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
-                                        <a href="http://ratmine.mcw.edu/ratmine/begin.do">RatMine</a>
-                                        <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
-                                        <a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>
-                                        <!-- <a href="/ACPHAPLOTYPER/">ACP Haplotyper</a> -->
-                                        <!-- <a href="/GENOMESCANNER/">Genome Scanner</a> -->
-                                    </div>
+                                       <div class="rgd-dropdown-content">
+                                            <a href="/QueryBuilder" >OntoMate (Literature Search)</a>
+                                            <a href="/jbrowse/">JBrowse (Genome Browser)</a>
+                                            <a href="/vcmap">Synteny Browser (VCMap)</a>
+                                            <a href="/rgdweb/front/config.html">Variant Visualizer</a>
+
+                                            <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
+                                            <a href="/rgdweb/ortholog/start.html">Gene-Ortholog Location Finder (GOLF)</a>
+                                            <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html">PhenoMiner (Quatitative Phenotypes)</a>
+                                            <a href="/rgdweb/ga/start.jsp">Gene Annotator</a>
+                                            <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
+                                            <a href="http://ratmine.mcw.edu/ratmine/begin.do">RatMine</a>
+                                            <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
+                                            <a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>
+<%--                                            <a href="/ACPHAPLOTYPER/">ACP Haplotyper</a>--%>
+<%--                                            <a href="/GENOMESCANNER/">Genome Scanner</a>--%>
+                                        </div>
                                 </div>
                                 <div class="rgd-dropdown">
                                     <button class="rgd-dropbtn" style="cursor:pointer" onclick="javascript:location.href='/rgdweb/portal/index.jsp'">Diseases
