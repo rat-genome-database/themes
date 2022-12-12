@@ -516,8 +516,6 @@
                                             <a href="https://www.alliancegenome.org/bluegenes/alliancemine">AllianceMine</a>
                                             <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
                                             <a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>
-<%--                                            <a href="/ACPHAPLOTYPER/">ACP Haplotyper</a>--%>
-<%--                                            <a href="/GENOMESCANNER/">Genome Scanner</a>--%>
                                         </div>
                                 </div>
                                 <div class="rgd-dropdown">
