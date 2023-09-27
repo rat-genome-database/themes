@@ -518,7 +518,7 @@
                                             <a href="/rgdweb/enrichment/start.html">Multi-Ontology Enrichment (MOET)</a>
                                             <a href="/rgdweb/ortholog/start.html">Gene-Ortholog Location Finder (GOLF)</a>
                                             <a href="/rgdweb/cytoscape/query.html">InterViewer (Protein-Protein Interactions)</a>
-                                            <a href="/rgdweb/phenominer/ontChoices.html">PhenoMiner (Quatitative Phenotypes)</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=3">PhenoMiner (Quatitative Phenotypes)</a>
                                             <a href="/rgdweb/ga/start.jsp">Gene Annotator</a>
                                             <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
                                             <a href="https://www.alliancegenome.org/bluegenes/alliancemine">AllianceMine</a>
@@ -556,26 +556,28 @@
                                         <i class="fa fa-caret-down"></i>
                                     </button>
 
-                                    <div class="rgd-dropdown-content">
-                                        <a href="/rgdweb/models/findModels.html">Find Models&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;color:red">new</span></a>
-                                        <a href="/rgdweb/models/allModels.html">Genetic Models</a>
-                                        <a href="/wg/autism-rat-model-resource/">Autism Models</a>
-                                        <a href="/rgdweb/phenominer/home.jsp">PhenoMiner (Quantitative Phenotypes)</a>
-                                        <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
-                                        <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
-                                        <a href="/wg/hrdp_panel/">Hybrid Rat Diversity Panel</a>
-                                        <a href="/wg/phenotype-data13/">Phenotypes</a>
-                                        <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
-                                        <a href="/wg/strain-maintenance/">Animal Husbandry</a>
-                                        <a href="/wg/physiology/strain-medical-records/">Strain Medical Records</a>
-                                        <a href="/wg/phylogenetics/">Phylogenetics</a>
-                                        <a href="/wg/strain-availability/">Strain Availability</a>
-                                        <a href="https://download.rgd.mcw.edu/pub/data_release/Hi-res_Rat_Calendars/">Calendar</a>
-                                        <a href="/wg/physiology/rats101/">Rats 101</a>
-                                        <a href="/wg/photos-and-images/community-submissions/">Submissions</a>
-                                        <a href="/wg/photos-and-images/physgen-photo-archive2/">Photo Archive</a>
-                                    </div>
-                                </div>
+					<div class="rgd-dropdown-content">
+                                            <a href="/rgdweb/models/findModels.html">Find Models&nbsp;&nbsp;&nbsp;<span style="font-weight: bold;color:red">new</span></a>
+                                            <a href="/rgdweb/models/allModels.html">Genetic Models</a>
+                                            <a href="/wg/autism-rat-model-resource/">Autism Models</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=3">Rat PhenoMiner (Quantitative Phenotypes)</a>
+                                            <a href="/rgdweb/phenominer/ontChoices.html?species=4">Chinchilla PhenoMiner</a>
+                                            <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
+                                            <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
+                                            <a href="/wg/hrdp_panel/">Hybrid Rat Diversity Panel</a>
+                                            <a href="/wg/phenotype-data13/">Phenotypes</a>
+                                            <a href="/wg/gerrc/">GERRC (Gene Editing Rat Resource Center)</a>
+                                            <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
+                                            <a href="/wg/strain-maintenance/">Animal Husbandry</a>
+                                            <a href="/wg/physiology/strain-medical-records/">Strain Medical Records</a>
+                                            <a href="/wg/phylogenetics/">Phylogenetics</a>
+                                            <a href="/wg/strain-availability/">Strain Availability</a>
+                                            <a href="https://download.rgd.mcw.edu/pub/data_release/Hi-res_Rat_Calendars/">Calendar</a>
+                                            <a href="/wg/physiology/rats101/">Rats 101</a>
+                                            <a href="/wg/photos-and-images/community-submissions/">Submissions</a>
+                                            <a href="/wg/photos-and-images/physgen-photo-archive2/">Photo Archive</a>
+                                        </div>                                
+				</div>
 
                                 <a href="/wg/home/pathway2/">Pathways</a>
 
