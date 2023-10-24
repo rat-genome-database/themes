@@ -458,7 +458,7 @@
                             <a href="/wg/home/rat-genome-database-publications">Publications</a>&nbsp;|&nbsp;
 
                             <a href="https://download.rgd.mcw.edu">Download</a>&nbsp;|&nbsp;
-                            <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui.html">REST API</a>&nbsp;|&nbsp;
+                            <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui/index.html">REST API</a>&nbsp;|&nbsp;
                             <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
                             <a href="/rgdweb/contact/contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;
 
@@ -592,7 +592,7 @@
                                         <a href="/wg/home/rgd_rat_community_videos/">Video Tutorials</a>
                                         <a href="/wg/news2/">News</a>
                                         <a href="/wg/home/rat-genome-database-publications/">RGD Publications</a>
-                                        <a href="/wg/com-menu/poster_archive/">RGD Poster Archive</a>
+                                        <a href="/wg/com-menu/poster_archive/">RGD Presentations Archive</a>
                                         <a href="/nomen/nomen.shtml">Nomenclature Guidelines</a>
                                         <a href="/wg/resource-links/">Resource Links</a>
                                         <a href="/wg/resource-links/laboratory-resources/">Laboratory Resources</a>
