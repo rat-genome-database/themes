@@ -458,11 +458,11 @@
                             <a href="/wg/home/rat-genome-database-publications">Publications</a>&nbsp;|&nbsp;
 
                             <a href="https://download.rgd.mcw.edu">Download</a>&nbsp;|&nbsp;
-                            <a href="https://rest.rgd.mcw.edu/rgdws/swagger-ui.html">REST API</a>&nbsp;|&nbsp;
+                            <a href="https://rest.rgd.mcw.edu/rgdws">REST API</a>&nbsp;|&nbsp;
                             <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
                             <a href="/rgdweb/contact/contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;
-
-                            <input type="button" class="btn btn-info btn-sm"  value="{{username}}" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>
+<!--
+                            <input type="button" class="btn btn-info btn-sm"  value="{{username}}" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>-->
                         </td>
 
                     </tr>
@@ -510,7 +510,7 @@
                                     </button>
 
                                        <div class="rgd-dropdown-content">
-                                            <a href="/QueryBuilder" >OntoMate (Literature Search)</a>
+                                            <a href="https://ontomate.rgd.mcw.edu" >OntoMate (Literature Search)</a>
                                             <a href="/jbrowse/">JBrowse (Genome Browser)</a>
                                             <a href="/vcmap">Synteny Browser (VCMap)&nbsp;&nbsp;<span style="color:red;">(beta)</span></a>
                                             <a href="/rgdweb/front/config.html">Variant Visualizer</a>
@@ -523,7 +523,7 @@
                                             <a href="/rgdweb/generator/list.html">OLGA (Gene List Generator)</a>
                                             <a href="https://www.alliancegenome.org/bluegenes/alliancemine">AllianceMine</a>
                                             <a href="/rgdweb/gTool/Gviewer.jsp">GViewer (Genome Viewer)</a>
-                                            <a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>
+                                            <!--<a href="/rgdweb/overgo/find.html">Overgo Probe Designer</a>-->
                                         </div>
                                 </div>
                                 <div class="rgd-dropdown">
