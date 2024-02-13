@@ -91,6 +91,8 @@
     <script src="/rgdweb/common/jquery-ui/jquery-ui.js"></script>
 
     <script type="text/javascript" src="/rgdweb/js/elasticsearch/elasticsearchcommon.js"></script>
+    <script src="https://accounts.google.com/gsi/client" async></script>
+
 <?php wp_head(); ?>
 </head>
 
@@ -101,6 +103,10 @@
         text-decoration:underline;
         ont-weight:700;
     }
+    .g_id_signin > div > div:first-child{
+        display: none;
+    }
+
 </style>
 
 
@@ -118,7 +124,6 @@
 
                 <!-- twitter boot strap model -->
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <table align="center">
                         <tr>
                             <td style="padding:20px;"><img src="/rgdweb/common/images/rgd_LOGO_blue_rgd.gif" border="0"/></td>
@@ -130,9 +135,8 @@
 
                     <div style="padding-bottom:20px;">
                     <div style="float:left; margin-right:10px; min-width: 600px;">Welcome <span style="font-weight:700; font-size:16px;">{{ username}}</span></div>
-                    <input  value="Update Account" type="button"  style="margin-right:10px;border:0px solid black; background-color:#4584ED; color:white; font-weight:700;padding:8px;" onClick="location.href='/rgdweb/my/account.html'"/>
-                    <input  value="Sign Out" type="button"  ng-click="rgd.logout()"  data-dismiss="modal" style="margin-right:10px;border:0px solid black; background-color:#4584ED; color:white; font-weight:700;padding:8px;"/>
                     </div>
+                    <br><br>
 
                     <div style="text-decoration:underline;font-weight:700; background-color:#e0e2e1;min-width:690px;">Message Center</div>
                     <div style="display:table-row;">
@@ -144,20 +148,19 @@
                     <div ng-repeat="watchedObject in watchedObjects" style="display:table-row;">
 
                         <div style="display: table-cell; float:left; margin-right:10px; min-width: 600px;">{{$index + 1}}. <span style="font-weight:700;">{{ watchedObject.symbol }} (RGD ID:{{watchedObject.rgdId}})</span></div>
-                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedObject.rgdId)">Update Watcher</a></div>
-                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedObject.rgdId)">Remove Watcher</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedObject.rgdId)">Modify Subscription</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedObject.rgdId)">Unsubscribe</a></div>
                     </div>
                     <div style="margin-top:20px;text-decoration:underline;font-weight:700;background-color:#e0e2e1;">Watched Ontology Terms</div>
                     <div ng-repeat="watchedTerm in watchedTerms" style="display:table-row;">
 
                         <div style="display: table-cell; float:left; margin-right:10px; min-width: 600px;">{{$index + 1}}. <span style="font-weight:700;">{{ watchedTerm.term }} ({{watchedTerm.accId}})</span></div>
-                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedTerm.accId)">Update Watcher</a></div>
-                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedTerm.accId)">Remove Watcher</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 40px;"><a href="javascript:return false;" ng-click="rgd.addWatch(watchedTerm.accId)">Modify Subscription</a></div>
+                        <div style="display: table-cell; float:left;  margin-right:10px; min-width: 50px;" ><a href="javascript:return false;" ng-click="rgd.removeWatch(watchedTerm.accId)">Unsubscribe</a></div>
                     </div>
 
 
                 </div>
-
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close Window</button>
                 </div>
@@ -296,7 +299,6 @@
         <div class="modal-dialog modal-small">
             <div class="modal-content" >
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
                     <h4 class="modal-title">{{ watchLinkText }}</h4>
                 </div>
                 <div class="modal-body">
@@ -428,7 +430,30 @@
                             -->
 
 
+<script>
+    function googleSignIn(creds) {
+        console.log(JSON.stringify(creds));
+        console.log(creds.header)
+        var resp = fetch("/rgdweb/my/account.html", {
+            method: "POST",
+            body: JSON.stringify({
+                clientId: creds.header,
+                credential: creds.credential
+            }),
+            headers: {
+                "Content-type": "application/json; charset=UTF-8"
+            }
+        }).then((response) => response.json())
+            .then((json) => {
+                document.getElementById("setUser").click();
+            });
 
+
+
+    }
+</script>
+
+<input style="display:none;" id="setUser" type="button" ng-click="rgd.setUser()" value="click"/>
 
 <table class="wrapperTable" cellpadding="0" cellspacing="0" border="0">
     <tr>
@@ -461,10 +486,33 @@
                             <a href="https://rest.rgd.mcw.edu/rgdws">REST API</a>&nbsp;|&nbsp;
                             <a href="/wg/citing-rgd">Citing RGD</a>&nbsp;|&nbsp;
                             <a href="/rgdweb/contact/contactus.html">Contact</a>&nbsp;&nbsp;&nbsp;
-<!--
-                            <input type="button" class="btn btn-info btn-sm"  value="{{username}}" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>-->
-                        </td>
+</td>
+                                        <td>
+                                        <div class="GoogleLoginButtonContainer">
 
+                                            <div id="signIn">
+                                            <div style="display:none;" id="g_id_onload"
+                                                 data-client_id="833037398765-po85dgcbuttu1b1lco2tivl6eaid3471.apps.googleusercontent.com"
+                                                 data-auto_prompt="false"
+                                                 data-auto_select="true"
+                                                 data-callback="googleSignIn"
+                                            >
+                                            </div>
+
+                                            <div class="g_id_signin"
+                                                 data-type="standard"
+                                                 data-shape="rectangular"
+                                                 data-theme="outline"
+                                                 data-text="signin"
+                                                 data-size="small"
+                                                 data-logo_alignment="left">
+                                            </div>
+                                            </div>
+                                            <div id="manageSubs" style="display:none;">
+                                                <input  type="button" class="btn btn-info btn-sm"  value="Manage Subscriptions" ng-click="rgd.loadMyRgd($event)" style="background-color:#2B84C8;padding:1px 10px;font-size:12px;line-height:1.5;border-radius:3px"/>
+                                            </div>
+                                        </div>
+                                        </td>
                     </tr>
 
                     <tr>
