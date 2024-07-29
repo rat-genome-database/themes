@@ -1,4 +1,9 @@
 
+
+
+
+
+
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
   <meta name="keywords" content="<?php echo get_post_meta($post->ID,'Keywords',true); ?>">
@@ -38,20 +43,7 @@
   <script src="/rgdweb/js/webFeedback.js" defer></script>
 
   
-<script src="https://www.google-analytics.com/urchin.js" type="text/javascript"></script>
-<script type="text/javascript">
-    _uacct = "UA-2739107-2";
-    urchinTracker();
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-BTF869XJFG"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
 
-    gtag('config', 'G-BTF869XJFG');
-</script>
 
 
 
@@ -612,7 +604,7 @@
                     </button>
 
                     <div class="rgd-dropdown-content">
-                      <a href="https://ontomate.rgd.mcw.edu/QueryBuilder" >OntoMate (Literature Search)</a>
+                      <a href="https://dev.rgd.mcw.edu/QueryBuilder" >OntoMate (Literature Search)</a>
                       <a href="/rgdweb/jbrowse2/listing.jsp">JBrowse (Genome Browser)</a>
                       <a href="/vcmap">Synteny Browser (VCMap)</a>
                       <a href="/rgdweb/front/config.html">Variant Visualizer</a>
@@ -663,7 +655,7 @@
                       <a href="/rgdweb/phenominer/ontChoices.html?species=4">Chinchilla PhenoMiner</a>
                       <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
                       <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
-                      <a href="/wg/hrdp_panel/">Hybrid Rat Diversity Panel</a>
+                      <a href="/rgdweb/hrdp_panel.html">Hybrid Rat Diversity Panel</a>
                       <a href="/wg/phenotype-data13/">Phenotypes</a>
                       <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
                       <a href="/wg/strain-maintenance/">Animal Husbandry</a>
@@ -793,3 +785,4 @@
     <table cellpadding="5" border=0 align="center" width="100%">
       <tr>
         <td colspan="3" align="left" valign="top">
+
