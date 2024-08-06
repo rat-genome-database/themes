@@ -655,7 +655,7 @@
                       <a href="/rgdweb/phenominer/ontChoices.html?species=4">Chinchilla PhenoMiner</a>
                       <a href="/rgdweb/phenominer/phenominerExpectedRanges/views/home.html">Expected Ranges (Quantitative Phenotype)</a>
                       <a href="/rgdweb/pa/termCompare.html?term1=RS%3A0000457&term2=CMO%3A0000000&countType=rec&species=3">PhenoMiner Term Comparison</a>
-                      <a href="/wg/hrdp_panel/">Hybrid Rat Diversity Panel</a>
+                      <a href="/rgdweb/hrdp_panel.html">Hybrid Rat Diversity Panel</a>
                       <a href="/wg/phenotype-data13/">Phenotypes</a>
                       <a href="/wg/physiology/additionalmodels/">Phenotypes in Other Animal Models</a>
                       <a href="/wg/strain-maintenance/">Animal Husbandry</a>
@@ -735,6 +735,8 @@
                 <a href="https://www.linkedin.com/company/rat-genome-database"><img src="/rgdweb/common/images/social/linkedin-20.png"/></a>
                 <a href="https://www.youtube.com/channel/UCMpex8AfXd_JSTH3DIxMGFw?view_as=subscriber"><img src="/rgdweb/common/images/social/youtube-20.png"/></a>
                 <a href="https://github.com/rat-genome-database"><img src="/rgdweb/common/images/GitHub_Logo_White-20.png"/></a>
+                <a href="https://bsky.app/profile/ratgenome.bsky.social"><img src="/rgdweb/common/images/blueSky.png"/></a>
+                <a href="https://genomic.social/@ratgenome"><img src="/rgdweb/common/images/mastadon.png"/></a>
 
               </td>
             </tr>
