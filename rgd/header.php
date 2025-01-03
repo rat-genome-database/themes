@@ -604,7 +604,7 @@
                     </button>
 
                     <div class="rgd-dropdown-content">
-                      <a href="https://dev.rgd.mcw.edu/QueryBuilder" >OntoMate (Literature Search)</a>
+                      <a href="https://ontomate.rgd.mcw.edu/QueryBuilder/" >OntoMate (Literature Search)</a>
                       <a href="/rgdweb/jbrowse2/listing.jsp">JBrowse (Genome Browser)</a>
                       <a href="/vcmap">Synteny Browser (VCMap)</a>
                       <a href="/rgdweb/front/config.html">Variant Visualizer</a>
@@ -677,7 +677,7 @@
                     </button>
 
                     <div class="rgd-dropdown-content">
-                      <a href="http://mailman.mcw.edu/mailman/listinfo/rat-forum">Rat Community Forum</a>
+                      <a href="https://rgd.mcw.edu/wg/rat_forum_invite/">Rat Community Forum</a>
                       <a href="/wg/com-menu/directory-of-rat-laboratories2/">Directory of Rat Laboratories</a>
                       <a href="/wg/home/rgd_rat_community_videos/">Video Tutorials</a>
                       <a href="/wg/news2/">News</a>
